@@ -1,10 +1,7 @@
 import React from 'react';
-import {ScrollView, StyleSheet, View, Text } from 'react-native';
-import { Button } from 'react-native-elements/dist/buttons/Button';
-import Feed from './components/PostCard';
-import { Card } from 'react-native-elements';
+import {ScrollView, StyleSheet, View } from 'react-native';
+import Feed from '../components/PostCard';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import { SafeAreaView } from 'react-native-safe-area-context';
 
 
 const styles = StyleSheet.create({

@@ -12,18 +12,18 @@ import {
     PostTime,
     PostUserName,
     PostContainer
-  } from '../MessageStyles';
+  } from '../styles/MessageStyles';
 
 
 const Posts = [
   {
     id: '1',
     userName: 'Jenny Doe',
-    userImg: require('../assets/users/user-3.jpg'),
+    userImg: require('../assets/users/user-1.jpg'),
     messageTime: '4 mins ago',
     post:
       'Hey there, this is my test for a post of my social app in React Native.',
-    postImg: require('../assets/users/user-3.jpg'),
+    postImg: require('../assets/users/post1.jpeg'),
     liked: true,
     likes: '15',
     comments: '4'
@@ -31,11 +31,11 @@ const Posts = [
   {
     id: '2',
     userName: 'John Doe',
-    userImg: require('../assets/users/user-1.jpg'),
+    userImg: require('../assets/users/user-2.jpg'),
     messageTime: '2 hours ago',
     post:
       'Hey there, this is my test for a post of my social app in React Native.',
-    postImg: require('../assets/users/user-2.jpg'),
+    postImg: require('../assets/users/user-7.jpg'),
     liked: true,
     likes: '15',
     comments: '4'
@@ -47,7 +47,7 @@ const Posts = [
     messageTime: '1 hours ago',
     post:
       'Hey there, this is my test for a post of my social app in React Native.',
-      postImg: require('../assets/users/user-3.jpg'),
+      postImg: require('../assets/users/post3.jpeg'),
       liked: true,
       likes: '15',
       comments: '4'
@@ -71,7 +71,7 @@ const Posts = [
     messageTime: '2 days ago',
     post:
       'Hey there, this is my test for a post of my social app in React Native.',
-    postImg: require('../assets/users/user-2.jpg'),
+    postImg: require('../assets/users/post4.jpeg'),
     liked: true,
     likes: '15',
     comments: '4'
